@@ -9961,6 +9961,6 @@ textarea.form-control {
       color: black;
     }
 
-    .whiteText{
-      color: white;
-    }
+  .googleMap{
+    max-width: 80%;
+  }
