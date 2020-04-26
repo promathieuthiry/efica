@@ -13208,6 +13208,15 @@ textarea.form-control {
     margin-left: 5%;
     height: auto;
   }
+  .title-efica-hero {
+    font-size: 60px !important;
+  }
+}
+.title-efica-hero {
+  font-size: 100px;
+  color: white;
+  line-height: 1.1;
+  font-weight: 400;
 }
 
 .card-efica-service {
