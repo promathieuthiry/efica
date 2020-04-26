@@ -32,172 +32,136 @@
     <link rel="stylesheet" href="../../css/style.css" />
   </head>
   <body>
- <!-- Start nav -->
- <nav
- class="navbar navbar-expand-lg navbar-dark ftco_navbar bg-dark ftco-navbar-light"
- id="ftco-navbar"
+   <!-- Start nav -->
+   <nav class="navbar navbar-expand-lg navbar-dark ftco_navbar ftco-navbar-light" id="ftco-navbar">
+    <a href="../../index.html">
+    <img src="../../images/logo-EFICA-navbar.png" alt="logo" width="auto" height="60" style="object-fit: cover;margin-left: 20px" >
+  </a>
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#ftco-nav" aria-controls="ftco-nav" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="oi oi-menu"></span> Menu
+      </button>
+
+      <div class="collapse navbar-collapse" id="ftco-nav">
+        <ul class="navbar-nav ml-auto">
+          <li class="nav-item"><a href="../../index.html" class="nav-link">Accueil</a></li>
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle" href="../service/services.html" id="navbarDropdown" role="link" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+              Services
+            </a>
+            <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+              <a class="dropdown-item" href="../service/services.html#Projet">Projet</a>
+              <a class="dropdown-item" href="../service/services.html#Installation">Installation</a>
+              <a class="dropdown-item" href="../service/services.html#Maintenance">Maintenance</a>
+              <a class="dropdown-item" href="../service/services.html#SAV">Service après vente</a>
+            </div>
+          </li>
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle" href="" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+              Réalisations
+            </a>
+            <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+              <a class="dropdown-item" href="#Climatisation">Climatisation</a>
+              <a class="dropdown-item" href="#Ventilation">Ventilation</a>
+              <a class="dropdown-item" href="#Serveur">Serveur</a>
+            </div>
+          </li>
+          <li class="nav-item"><a href="../../about.html" class="nav-link">À propos</a></li>
+          <li class="nav-item"><a href="../../index.html#contact" class="nav-link">Contact</a></li>
+          <li class="nav-item"><button type="button" class="buttonCover" style="margin-top: 7px;">DEVIS</button></li>
+        </ul>
+      </div>
+  </nav>
+  <!-- END nav -->
+
+<section
+class="hero-wrap hero-wrap-2 ftco-degree-bg js-fullheight"
+style="background-image:  linear-gradient(rgba(0, 0, 0, 0.5),rgba(0, 0, 0, 0.5)),url('../../images/realisation-bg.jpg');"
 >
- <div class="container">
-   <a class="navbar-brand" href="../../index.html">EFICA</a>
-   <img
-     src="../../images/logo_EFICA.png"
-     alt="logo"
-     width="auto"
-     height="60"
-   />
-   <button
-     class="navbar-toggler"
-     type="button"
-     data-toggle="collapse"
-     data-target="#ftco-nav"
-     aria-controls="ftco-nav"
-     aria-expanded="false"
-     aria-label="Toggle navigation"
-   >
-     <span class="oi oi-menu"></span> Menu
-   </button>
+<div class="overlay"></div>
+<div class="container">
+  <div
+    class="row no-gutters slider-text js-fullheight align-items-center justify-content-center"
+  >
+    <div class="col-md-9 ftco-animate pb-5 text-center">
+      <h1 class="mb-3 bread">Nos Réalisations</h1>
+      <h5 style="color: white;"><span style="font-weight: bold;">EFICA</span> est une entreprise à taille humaine, mais avec des prestations de qualités. 
+        Notre équipe est souvent sollicité pour les 
+        <b><a class="hover-name-link-efica" href="#Hotel-EFICA">réfections d’hôtels</a>, de <a class="hover-name-link-efica" href="#Plateau-Bureau-EFICA">plateau de bureau</a>, 
+          de <a class="hover-name-link-efica" href="#Boutique-EFICA">boutiques</a> ou encore pour le rafraichissement de <a class="hover-name-link-efica" href="#Serveur">salle serveur</a></b>.</h5>
+    </div>
+  </div>
+</div>
+</section>
 
-   <div class="collapse navbar-collapse" id="ftco-nav">
-     <ul class="navbar-nav ml-auto">
-       <li class="nav-item">
-         <a href="../../index.html" class="nav-link">Accueil</a>
-       </li>
-       <li class="nav-item dropdown">
-         <a
-           class="nav-link dropdown-toggle"
-           href=""
-           id="navbarDropdown"
-           role="button"
-           data-toggle="dropdown"
-           aria-haspopup="true"
-           aria-expanded="false"
-         >
-           Service
-         </a>
-         <div class="dropdown-menu" aria-labelledby="navbarDropdown">
-           <a class="dropdown-item" href="../service/projet.html">Projet</a>
-           <a class="dropdown-item" href="../service/installation.html"
-             >Installation</a
-           >
-           <a class="dropdown-item" href="../service/maintenance.html"
-             >Maintenance</a
-           >
-           <a class="dropdown-item" href="../service/sav.html"
-             >Service après vente</a
-           >
-           <div class="dropdown-divider"></div>
-           <a class="dropdown-item" href="../service/général.html">Général</a>
-         </div>
-       </li>
-       <li class="nav-item dropdown">
-         <a
-           class="nav-link dropdown-toggle"
-           href=""
-           id="navbarDropdown"
-           role="button"
-           data-toggle="dropdown"
-           aria-haspopup="true"
-           aria-expanded="false"
-         >
-           Travaux réalisés
-         </a>
-         <div class="dropdown-menu" aria-labelledby="navbarDropdown">
-           <a class="dropdown-item" href="./climatisation.html"
-             >Climatisation</a
-           >
-           <a class="dropdown-item" href="./ventilation.html"
-             >ventilation</a
-           >
-         </div>
-       </li>
-       <li class="nav-item">
-         <a href="./pages/apropos.html" class="nav-link">À propos</a>
-       </li>
-       <li class="nav-item">
-         <a href="#contact" class="nav-link">Contact</a>
-       </li>
-       <li class="nav-item">
-         <button
-           type="button"
-           class="buttonCover"
-           style="margin-top: 7px;"
-         >
-           DEVIS
-         </button>
-       </li>
-     </ul>
-   </div>
- </div>
-</nav>
-<!-- END nav -->
-
-    <!-- section Treavaux réalisé -->
-    <section class="ftco-section ftco-no-pt" style="margin-top: 100px;">
+    <!-- section Climatisation -->
+    <section class="ftco-section ftco-no-pt" style="margin-top: 100px;" id="Climatisation">
       <div class="container">
         <div class="row justify-content-center mb-5">
           <div class="col-md-7 heading-section text-center ftco-animate">
             <span class="subheading">Travaux réalisés</span>
-            <h2>Climatisation</h2>
+            <h2>Climatisation/Chauffage (détente direct / eau glacée)</h2>
           </div>
         </div>
         <!-- Travaux 1 -->
         <div class="row d-flex" >
-          <div class="col-md-4 d-flex ftco-animate">
+          <div class="col-md-4 d-flex ftco-animate" id="Hotel-EFICA">
             <div class="blog-entry justify-content-end">
               <div class="text">
-                <h3 class="heading"><a href="#">HOTEL</a></h3>
+                <h3 class="heading"><p>HOTEL</p></h3>
                 <div class="meta mb-3">
-                  <div><a href="#">CLIMATISATION Détente Direct</a></div>
                 </div>
                 <a
-                  href="blog-single.html"
                   class="block-20 img"
                   style="background-image: url('../../images/travaux-hotel.jpg');"
                 >
                 </a>
                 <p>
                 <ul>
-                    <li>HOTEL Arthur Groussier MO - hors machine 40 chambres 33 000</li>
-                    <li>HOTEL Ibis Style Nation MO- hors machine 47 chambres 38 000</li>
-                    <li>Hotel Ibis Ledru Rollin / Hotel Ibis Faubourg Montmartre</li>
-                    <li>Hotel Mercure Petites Ecuries réseau eau glacee</li>
+                    <li>Hôtel <b>GROUSSIER</b> à Paris, 40 chambres montant de la prestation: 33 000€. 
+                      <a style="color: blue;"target="_blank" href="https://images.unsplash.com/photo-1496417263034-38ec4f0b665a?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1051&q=80">
+                        Image 1
+                      </a>
+                      <a style="color: blue;"target="_blank" href="https://images.unsplash.com/photo-1495365200479-c4ed1d35e1aa?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1050&q=80">
+                        Image 2
+                      </a>
+                    </li>
+                    <li>Hôtel <b>IBIS STYLE NATION</b>, 47 chambres, montant de la prestation: 38 000€</li>
+                    <li>Hôtel <b>IBIS LEDRU ROLLIN</b> / Hotel Ibis Faubourg Montmartre</li>
+                    <li>Hôtel <b>MERCURE PETITES ECURIES</b> réseau eau glacee</li>
                 </ul>
                 </p>
               </div>
             </div>
           </div>
           <!-- Travaux 2 -->
-          <div class="col-md-4 d-flex ftco-animate">
+          <div class="col-md-4 d-flex ftco-animate" id="Plateau-Bureau-EFICA">
             <div class="blog-entry justify-content-end">
               <div class="text">
-                <h3 class="heading"><a href="#">PLATEAU DE BUREAU</a></h3>
+                <h3 class="heading"><p>PLATEAU DE BUREAU</p></h3>
                 <div class="meta mb-3">
-                  <div><a href="#">CLIMATISATION Eau Glacée</a></div>
                 </div>
                 <a
-                  href=""
                   class="block-20 img"
                   style="background-image: url('../../images/travaux-plateau de bureau.jpg');"
                 >
                 </a>
                 <p>
                   <ul>
-                      <li><b>CBRE HERTZ MONTIGNY-LE BRETONNEUX</b>  MO 17 unités de climatisation Détente Direct + 2 armoire de clim 28 000euros hors machine</li>
-                  <li><b>CHRONOPOST AULNAY</b> FO+MO 23 unités de climatisation 28 000euros hors machine</li>
-                  <li><b>OPPBTP BOULOGNE</b>  FO +MO 15 unités de climatisation 12 000 euros hors machine</li>
-                  <li><b>PARC D’ACTIVITE GROSLAY ALCEI</b>  FO+MO 24 unités de climatisation 33 000euros hors machine</li>
+                      <li><b>CBRE HERTZ MONTIGNY-LE BRETONNEUX</b>17 unités de climatisation Détente Direct + 2 armoire de clim pour un montant de 28 000€</li>
+                  <li><b>CHRONOPOST AULNAY</b>23 unités de climatisation pour un montant de 28 000€</li>
+                  <li><b>OPPBTP BOULOGNE</b>15 unités de climatisation pour un montant de 12 000€</li>
+                  <li><b>PARC D’ACTIVITE GROSLAY ALCEI</b>24 unités de climatisation pour un montant de 33 000€</li>
                     </ul>
                 </p>
               </div>
             </div>
           </div>
           <!-- Travaux 3 -->
-          <div class="col-md-4 d-flex ftco-animate">
+          <div class="col-md-4 d-flex ftco-animate" id="Boutique-EFICA">
             <div class="blog-entry justify-content-end">
               <div class="text">
-                <h3 class="heading">BOUTIQUE / RESTAURANT / AGENCES</h3>
+                <h3 class="heading">BOUTIQUE /RESTAURANT /AGENCES</h3>
                 <div class="meta mb-3">
-                  <div><a href="#"></a>CLIMATISATION Eau Glacée</a></div>
                 </div>
                 <a
                   class="block-20 img"
@@ -206,63 +170,70 @@
                 </a>
                 <p>
                   <ul>
-                      <li>JD SPORT FO+MO 9 unités de climatisation 15 000euros hors machine</li>
-                      <li>BNP MONTMORENCY / ST DENIS / ST MAUR DES FOSSES 10 unités de climatisations MO 14 000euros hors machine</li>
-                      <li>SAVELYS ST DENIS 56 unités de climatisations MO+FO 45 000 hors machine</li>
+                      <li><b>JD SPORT</b> 9 unités de climatisation pour un montant de 15 000€</li>
+                      <li>BNP MONTMORENCY / ST DENIS / ST MAUR DES FOSSES 10 unités de climatisations pour un montant de 14 000€</li>
+                      <li><b>SAVELYS ST DENIS</b> 56 unités de climatisations pour un montant de 45 000€</li>
                   </ul>
                 </p>
               </div>
             </div>
           </div>
-          <!-- Travaux 4 -->
-          <div class="col-md-4 d-flex ftco-animate">
+
+        </div>
+      </div>
+    </section>
+        <!-- end section Climatisation -->
+
+        <!-- section Treavaux réalisé -->
+    <section class="ftco-section ftco-no-pt" >
+      <div class="container ">
+        <div class="row d-flex" >
+
+        <!-- Travaux 1 -->
+          <div class="col-md-6 d-flex ftco-animate" id="Ventilation">
             <div class="blog-entry justify-content-end">
               <div class="text">
-                <h3 class="heading"><a href="#">LOCAUX SERVEURS</a></h3>
+                <h2>VENTILATION</h2>
                 <div class="meta mb-3">
-                  <div><a href="#">CLIMATISATION Détente Direct</a></div>
                 </div>
                 <a
-                  href="blog-single.html"
+                  class="block-20 img"
+                  style="background-image: url('../../images/ventilation.jpg');">
+                >
+                </a>
+                <p>
+                  <ul>
+                      <li><b>IMMEUBLE DE LOGEMENT PORTE D'Italie</b>, 70 LOGEMENTS pour un montant de 40 000€</li>
+                      <li><b>GAIA NANTERRE</b> Réfection d’un plateau en ventilations pour un montant de 12 000€</li>
+                      <li><b>ATELIER DE STOCKAGE ZAC GROSLAY</b> : 8 DOUBLE – FLUX pour un montant de 33 000€</li>
+                  </ul>
+                  </p>
+              </div>
+            </div>
+          </div>
+          <!-- Travaux 2 -->
+          <div class="col-md-6 d-flex ftco-animate" id="Serveur">
+            <div class="blog-entry justify-content-end">
+              <div class="text">
+                <h2>LOCAL SERVEUR</h2>
+                <div class="meta mb-3">
+                </div>
+                <a
                   class="block-20 img"
                   style="background-image: url('../../images/travaux-local.jpg');"
                 >
                 </a>
                 <p>
-               <ul>
-                   <li>TOUR TRINITY LA DEFENSE FO+ MO 9 Armoires de clim 40 000EUROS hors machine</li>
-                   <li>CBRE PAUL CEZANNE  6 MINI-VRV FO+MO 18 000 hors machine</li>
-                   <li>THALES GENNEVILLIER / THALES VELIZY 3 MINI VRV MO 10000 hors machine</li>
-               </ul>
-                </p>
+                  <ul>
+                      <li><b>TOUR TRINITY LA DEFENSE</b> 9 Armoires de clim pour un montant de 40 000€</li>
+                      <li><b>CBRE PAUL CEZANNE</b> 6 MINI-VRV pour un montant de 18 000€</li>
+                      <li><b>THALES GENNEVILLIER / THALES VELIZY</b> 3 MINI VRV pour un montant de 10 000€</li>
+                  </ul>
+                   </p>
               </div>
             </div>
           </div>
 
-          <div class="col-md-4 d-flex ftco-animate">
-            <div class="blog-entry justify-content-end">
-              <div class="text">
-                <h3 class="heading"><a href="#">PARTICULIER</a></h3>
-                <div class="meta mb-3">
-                  <div><a href="#">CLIMATISATION Détente Direct</a></div>
-                </div>
-                <a
-                  href="blog-single.html"
-                  class="block-20 img"
-                  style="background-image: url('');"
-                >
-                </a>
-                <p>
-               <ul>
-                <li>CBRE PAUL CEZANNE  6 MINI-VRV FO+MO 18 000 hors machine</li>
-               </ul>
-                </p>
-              </div>
-            </div>
-          </div>
-        </div>
-      </div>
-    </section>
     <!-- Footer -->
     <footer
       class="page-footer font-small unique-color-dark"
@@ -369,8 +340,6 @@
       </div>
       <!-- Copyright -->
 
-      <!-- template
-    https://colorlib.com/wp/template/uptown/ -->
     </footer>
     <!-- Footer -->
 

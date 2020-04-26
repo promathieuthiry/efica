@@ -38,6 +38,11 @@
     "Liberation Mono", "Courier New", monospace;
 }
 
+@font-face {
+  font-family: "elephant";
+  src: url("../fonts/elephant.ttf") format("truetype"); /* Safari, Android, iOS */
+}
+
 *,
 *::before,
 *::after {
@@ -10507,17 +10512,33 @@ h5,
   color: #e86ed0 !important;
 }
 
-.ftco-navbar-light {
-  background: transparent !important;
+/* .ftco-navbar-light {
+  background: #fff !important;
   position: absolute;
-  top: 20px;
+  top: 0px;
   left: 0;
   right: 0;
   z-index: 3;
+} */
+
+.ftco-navbar-light {
+  position: fixed;
+  right: 0;
+  left: 0;
+  top: 0;
+  background: #fff !important;
+  z-index: 3;
+  -webkit-box-shadow: 0 0 10px 0 rgba(0, 0, 0, 0.1);
+  box-shadow: 0 0 10px 0 rgba(0, 0, 0, 0.1);
+}
+@media (min-width: 991.98px) {
+  .transition-bg {
+    margin-top: 75px;
+  }
 }
 @media (max-width: 991.98px) {
   .ftco-navbar-light {
-    background: #000000 !important;
+    background: 000 !important;
     position: relative;
     top: 0;
   }
@@ -10530,7 +10551,7 @@ h5,
 }
 @media (max-width: 991.98px) {
   .ftco-navbar-light .navbar-brand {
-    color: #fff;
+    color: #000000;
   }
 }
 @media (max-width: 991.98px) {
@@ -10556,7 +10577,7 @@ h5,
     padding-left: 0;
     padding-right: 0;
     padding-bottom: 0;
-    color: #fff;
+    color: #000000;
   }
 }
 .ftco-navbar-light .navbar-nav > .nav-item .dropdown-menu {
@@ -10592,7 +10613,7 @@ h5,
   }
 }
 .ftco-navbar-light .navbar-nav > .nav-item.cta > a {
-  color: #fff;
+  color: #000000;
   border: 1px solid #e86ed0;
   padding-top: 0.5rem;
   padding-bottom: 0.5rem;
@@ -10607,7 +10628,7 @@ h5,
 }
 .ftco-navbar-light .navbar-nav > .nav-item.cta > a span {
   display: inline-block;
-  color: #fff;
+  color: #000000;
 }
 .ftco-navbar-light .navbar-nav > .nav-item.cta > a:hover {
   background: #e86ed0;
@@ -10627,7 +10648,7 @@ h5,
 }
 .ftco-navbar-light .navbar-toggler {
   border: none;
-  color: rgba(255, 255, 255, 0.5) !important;
+  color: #808080 !important;
   cursor: pointer;
   padding-right: 0;
   text-transform: uppercase;
@@ -10640,7 +10661,7 @@ h5,
   color: #e86ed0;
   outline: none !important;
 }
-.ftco-navbar-light.scrolled {
+/* .ftco-navbar-light.scrolled {
   position: fixed;
   right: 0;
   left: 0;
@@ -10649,8 +10670,8 @@ h5,
   background: #fff !important;
   -webkit-box-shadow: 0 0 10px 0 rgba(0, 0, 0, 0.1);
   box-shadow: 0 0 10px 0 rgba(0, 0, 0, 0.1);
-}
-@media (max-width: 991.98px) {
+} */
+/* @media (max-width: 991.98px) {
   .ftco-navbar-light.scrolled .nav-item > .nav-link {
     padding-left: 0 !important;
     padding-right: 0 !important;
@@ -10720,7 +10741,7 @@ h5,
 }
 .ftco-navbar-light.scrolled .navbar-brand {
   color: #aa393b;
-}
+} */
 
 .navbar-brand {
   font-weight: 800;
@@ -13187,4 +13208,47 @@ textarea.form-control {
     margin-left: 5%;
     height: auto;
   }
+}
+
+.card-efica-service {
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  transition: 0.3s;
+  width: 100%;
+  height: auto;
+  margin-top: 30px;
+  border-radius: 8px;
+}
+
+.card-efica-service:hover {
+  box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2);
+  transform: scale(1.1);
+}
+
+@media screen and (max-width: 768px) {
+  img.card-efica-service {
+    width: 100%;
+  }
+}
+@media screen and (min-width: 769px) and (max-width: 1280px) {
+  img.card-efica-service {
+    width: 70%;
+  }
+}
+@media screen and (min-width: 1281px) {
+  img.card-efica-service {
+    width: 60%;
+  }
+}
+img.card-efica-service {
+  height: auto;
+}
+
+.hover-name-link-efica {
+  color: white !important;
+  text-decoration: none;
+  transition: 0.2s cubic-bezier(0.25, 0.1, 0.25, 1);
+}
+.hover-name-link-efica:hover {
+  cursor: pointer;
+  background-color: #f7b71e;
 }
